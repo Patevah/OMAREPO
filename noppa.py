@@ -5,6 +5,7 @@ class NoppaSovellus:
     def __init__(self, ikkuna):
         self.ikkuna = ikkuna
         self.ikkuna.title("Noppasovellus")
+        self.ikkuna.minsize(150,100)
 
         self.tulos_label = tk.Label(ikkuna, text="Tulos näkyy tässä")
         self.tulos_label.pack(pady=10)
